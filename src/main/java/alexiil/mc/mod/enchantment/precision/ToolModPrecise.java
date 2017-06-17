@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
-@Mod(modid = ToolModPrecise.MODID, version = "${version}")
+@Mod(modid = ToolModPrecise.MODID, version = "${version}", acceptedMinecraftVersions = "[1.10.2,)")
 public class ToolModPrecise {
 
     public static final String MODID = "tool_enchantment_precise";

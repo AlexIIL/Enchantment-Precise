@@ -15,7 +15,7 @@ public class EnchantmentPrecision extends Enchantment {
     public static final EnchantmentPrecision INSTANCE = new EnchantmentPrecision();
 
     private EnchantmentPrecision() {
-        super(Rarity.COMMON, EnumEnchantmentType.DIGGER, SLOTS);
+        super(Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, SLOTS);
         setRegistryName(ToolModPrecise.MODID, "precision");
         setName("precision");
     }
